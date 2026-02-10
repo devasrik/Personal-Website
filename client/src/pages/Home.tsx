@@ -55,11 +55,13 @@ export default function Home() {
         {/* Home Section */}
         <section
           id="home"
-          className="min-h-screen flex items-center justify-center py-20 border-b border-border"
+          className="min-h-screen flex items-center justify-center border-b border-border"
         >
-          <div className="container">
-            <div className="space-y-6 max-w-3xl">
-              <div className="accent-line mb-6" />
+          <div className="flex items-center justify-center w-full">
+            <div className="text-center space-y-6 max-w-3xl px-4">
+              <div className="flex justify-center mb-6">
+                <div className="accent-line" />
+              </div>
               <h1 className="text-6xl md:text-7xl font-bold text-foreground leading-tight">
                 Hi, I'm Devasri Kasanneni
               </h1>
@@ -69,7 +71,7 @@ export default function Home() {
               <p className="text-lg text-muted-foreground leading-relaxed">
                 Looking for opportunities to apply my skills in full-stack development and contribute to innovative projects that make a real impact.
               </p>
-              <div className="flex gap-4 pt-4">
+              <div className="flex gap-4 pt-4 justify-center">
                 <button
                   onClick={() => scrollToSection("projects")}
                   className="px-6 py-3 bg-foreground text-background rounded-lg font-semibold transition-all duration-200 ease-out hover:shadow-lg hover:scale-105"
