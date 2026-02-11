@@ -69,7 +69,7 @@ export default function Home() {
                 Computer Science Student & Developer
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Looking for opportunities to apply my skills in full-stack development and contribute to innovative projects that make a real impact.
+                Driven and dedicated aspiring software engineer with a passion for innovation and problem-solving. Currently pursuing a Bachelor of Science in Computer Science at Arizona State University, I am eager to contribute my technical skills and creativity to meaningful projects in the tech industry. My goal is to leverage my education and drive to build cutting-edge software solutions that positively impact people's lives.
               </p>
               <div className="flex gap-4 pt-4 justify-center">
                 <button
@@ -98,15 +98,14 @@ export default function Home() {
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              {/* About Image Placeholder */}
-              <div className="flex items-center justify-center">
-                <div className="w-full aspect-square rounded-lg border-2 border-border bg-secondary flex items-center justify-center">
-                  <div className="text-center">
-                    <p className="text-muted-foreground text-lg font-semibold">Your Photo</p>
-                    <p className="text-muted-foreground text-sm">(Add your picture here)</p>
-                  </div>
-                </div>
-              </div>
+              {/* About Image */}
+<div className="flex items-center justify-center">
+  <img 
+    src="https://img.sanishtech.com/u/8724f28809f3ca3246771a24c4678e4e.jpg" 
+    alt="Devasri Kasanneni" 
+    className="w-full aspect-square rounded-lg border-2 border-border object-cover"
+  />
+</div>
 
               {/* About Content */}
               <div className="space-y-6">
