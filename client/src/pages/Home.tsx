@@ -66,10 +66,10 @@ export default function Home() {
                 Hi, I'm Devasri Kasanneni
               </h1>
               <p className="text-2xl text-muted-foreground">
-                Computer Science Student & Developer
+                Aspiring Software Engineer/Developer
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Driven and dedicated aspiring software engineer with a passion for innovation and problem-solving. Currently pursuing a Bachelor of Science in Computer Science at Arizona State University, I am eager to contribute my technical skills and creativity to meaningful projects in the tech industry. My goal is to leverage my education and drive to build cutting-edge software solutions that positively impact people's lives.
+                Driven and dedicated aspiring software engineer with a passion for innovation and problem-solving. I am eager to contribute my technical skills and creativity to meaningful projects in the tech industry. My goal is to leverage my education and drive to build cutting-edge software solutions that positively impact people's lives.
               </p>
               <div className="flex gap-4 pt-4 justify-center">
                 <button
@@ -110,11 +110,9 @@ export default function Home() {
               {/* About Content */}
               <div className="space-y-6">
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  I'm a passionate computer science student with a deep interest in building elegant,
-                  efficient solutions to real-world problems. My journey in tech started with curiosity
-                  about how things work, which quickly evolved into a love for coding and software
-                  development. I specialize in full-stack development, machine learning, and creating
-                  user-centric applications that make a real impact.
+                  I’m a computer science student passionate about building scalable, user-focused software that solves real-world problems. 
+                  I specialize in full-stack development and machine learning, and I enjoy turning complex ideas into clean, efficient, and practical applications. 
+                  I’m driven by curiosity, continuous learning, and the challenge of creating technology that makes a meaningful impact.
                 </p>
               </div>
             </div>
@@ -137,29 +135,28 @@ export default function Home() {
                     <h3 className="text-2xl font-bold text-foreground mb-1">
                       Bachelor of Science in Computer Science
                     </h3>
-                    <p className="text-lg font-semibold text-muted-foreground">University Name</p>
+                    <p className="text-lg font-semibold text-muted-foreground">Arizona State University</p>
                   </div>
                   <span className="text-sm font-semibold text-muted-foreground whitespace-nowrap mt-2 md:mt-0">
-                    2022 - 2026
+                    Aug 2022 -  May 2026 (Expected)
                   </span>
                 </div>
-                <p className="text-muted-foreground mb-4">
-                  Pursuing a comprehensive degree in Computer Science with focus on software
-                  engineering and machine learning.
-                </p>
-                <p className="text-sm font-semibold text-foreground mb-3">GPA: 3.8/4.0</p>
+                <p className="text-sm font-semibold text-foreground mb-3">GPA: 3.5/4.0</p>
                 <ul className="space-y-2">
                   <li className="text-muted-foreground flex items-start gap-3">
                     <span className="text-foreground font-bold mt-1">•</span>
-                    <span>Dean's List (All Semesters)</span>
                   </li>
                   <li className="text-muted-foreground flex items-start gap-3">
                     <span className="text-foreground font-bold mt-1">•</span>
-                    <span>Relevant Coursework: Data Structures, Algorithms, Database Systems</span>
+                    <span>Relevant Coursework: Data Structures and Algorithms, Database Systems, QA Testing, Introduction to AI, Foundations to Machine Learning, Exploring Data in R and Python, Operating Systems</span>
                   </li>
                   <li className="text-muted-foreground flex items-start gap-3">
                     <span className="text-foreground font-bold mt-1">•</span>
-                    <span>Active member of Computer Science Club</span>
+                    <span>Active member of Hacker Devils</span>
+                    <span>Active member of Google Developers Club</span>
+                    <span>Active member of Telugu Student Association</span>
+                    <span>Active member of SODA</span>
+                    <span>Active member of SWE</span>
                   </li>
                 </ul>
               </div>
@@ -170,9 +167,9 @@ export default function Home() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {[
                     {
-                      title: "Full Stack Web Development",
-                      issuer: "Online Platform",
-                      date: "2024",
+                      title: "IRB – Social and Behavioral Research (Group 2)",
+                      issuer: "CITI Program",
+                      date: "Jan 2026 - Jan 2030",
                     },
                     { title: "Machine Learning Specialization", issuer: "Coursera", date: "2024" },
                     {
@@ -321,19 +318,19 @@ export default function Home() {
               <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
                 <div>
                   <h3 className="text-2xl font-bold text-foreground mb-1">
-                    Software Development Intern
+                    Full Stack Developer 
                   </h3>
-                  <p className="text-lg font-semibold text-muted-foreground">Tech Company Name</p>
+                  <p className="text-lg font-semibold text-muted-foreground">Qualaces Inc.</p>
                 </div>
                 <span className="text-sm font-semibold text-muted-foreground whitespace-nowrap mt-2 md:mt-0">
-                  Summer 2024
+                  Aug 2025 - May 2026 (Expected)
                 </span>
               </div>
 
               <p className="text-muted-foreground mb-4">
-                Developed and maintained full-stack web applications using React and Node.js.
-                Collaborated with senior developers to implement new features and fix bugs. Participated
-                in code reviews and contributed to improving development practices.
+                Developed a HIPAA-compliant healthcare platform focused on a Medication Scanning application and a Geotagging system 
+                that helps care agencies assign therapists based on proximity to patients. The solution streamlines care coordination, 
+                reduces administrative workload, and improves clinical data accuracy through OCR-driven automation in a real-world, production-focused environment.
               </p>
 
               <div>
@@ -373,16 +370,16 @@ export default function Home() {
                   {
                     icon: Mail,
                     label: "Email",
-                    value: "your.email@example.com",
-                    href: "mailto:your.email@example.com",
+                    value: "devasrikasanneni@gmail.com",
+                    href: "devasrikasanneni@gmail.com",
                   },
                   {
                     icon: Phone,
                     label: "Phone",
-                    value: "+1 (555) 123-4567",
-                    href: "tel:+15551234567",
+                    value: "+1 (623) 275-0375 ",
+                    href: "tel:+6232750375",
                   },
-                  { icon: MapPin, label: "Location", value: "City, State, USA", href: "#" },
+                  { icon: MapPin, label: "Location", value: "Chandler, Arizona, USA", href: "#" },
                 ].map((info) => {
                   const Icon = info.icon;
                   return (
@@ -413,7 +410,7 @@ export default function Home() {
                     {[
                       { icon: Github, label: "GitHub", href: "https://github.com" },
                       { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com" },
-                      { icon: Mail, label: "Email", href: "mailto:your.email@example.com" },
+                      { icon: Mail, label: "Email", href: "mailto:devasrikasanneni@gmail.com" },
                     ].map((social) => {
                       const Icon = social.icon;
                       return (
